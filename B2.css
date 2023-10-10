@@ -91,41 +91,60 @@ p.info{
     font-weight: bold;
     font-style: italic;
 }
-.mainmenubtn {
-    background-color: rgb(255, 255, 255);
+
+/* Style de base pour le bouton du menu */
+.dropbtn {
+    background-color: white;
     color: #456ba5;
+    padding: 5px 5px;
     border: none;
     cursor: pointer;
-    padding:5px;
-    margin-top:5px;
     font-size: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
-.mainmenubtn:hover {
-    background-color: rgb(255, 255, 255);
-    color: black;
-    }
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-.dropdown-child {
+
+/* Style pour le contenu du menu déroulant (caché par défaut) */
+.dropdown-content {
     display: none;
-    background-color: rgb(255, 255, 255);
-    min-width: 5px;
-    font: 3px;
-    padding-right: 5px;
+    position: absolute;
+    background-color: white;
+    min-width: 30px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-size: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
-.dropdown-child a {
-    color: #456ba5;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    padding: 4px;
+
+/* Style pour chaque lien d'onglet */
+.dropdown-content a {
+    color: black;
+    padding: 5px 10px;
     text-decoration: none;
     display: block;
-    font-size: 4px;
 }
-.dropdown:hover .dropdown-child {
+
+/* Changement de couleur lorsque la souris survole un lien */
+.dropdown-content a:hover {
+    background-color: #456ba5;
+    color: white;
+}
+
+/* Afficher le contenu du menu lorsqu'il est survolé */
+.dropdown:hover .dropdown-content {
     display: block;
 }
+
+/* Style pour le menu déroulant lorsqu'il est ouvert */
+.dropdown:hover .dropbtn {
+    background-color: white;
+    color: black;
+}
+
+
+
+
 div.address{
     font-size: 5px;
     text-align: center;
