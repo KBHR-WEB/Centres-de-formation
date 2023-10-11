@@ -23,7 +23,7 @@ ul{
 }
 
 div.page{
-    background-image: url();
+    background-image: url(Backmap.jpg);
     background-repeat: no-repeat;
     background-size: calc(300%);
     width: auto;
