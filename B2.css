@@ -32,13 +32,13 @@ div.page{
 h3.ttl1{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 7pt;
-    background-color: #456ba5;
+    background-color: white;
     font-style: italic;
 }
 p.ttl1{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 4pt;
-    color: #ffffff;
+    color: #456ba5;
     text-transform: capitalize;
     font-weight: bold;
 }
