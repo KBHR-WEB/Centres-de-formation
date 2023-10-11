@@ -193,3 +193,25 @@ div.blocs{
     border-radius: 52px;
     border-width: 1px;
 }
+
+
+#scrollTopButton {
+    position: fixed;
+    bottom: 2px;
+    right: 2px;
+    z-index: 1; /* Assure que le bouton est au-dessus du contenu */
+    background: none;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    padding: 1px;
+    cursor: pointer;
+  }
+  
+  #scrollTopButton:hover {
+    background-color: #0057b300;
+  }
+  img.retour{
+    width: 10px;
+    opacity: calc(50%);
+  }
