@@ -1,10 +1,70 @@
 body{
     background-color: #456ba5;
-    margin: 3px;
+    position: relative;
+    margin: 5px;
 }
 img.logo{
     width: 30px;
     border-radius: 100px;
+    margin-right: 10px;
+}
+section.A1{
+    background-color: white;
+    display: inline-table;
+}
+section.menu{
+    background-color: white;
+    width: auto;
+    display: inline-table;
+    padding: 1.5px;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+}
+
+div.page{
+    background: radial-gradient(circle, #ffffff, #456ba5);
+    width: auto;
+    text-align: center;
+}
+
+h3.ttl1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 7pt;
+    background-color: white;
+    font-style: italic;
+}
+p.ttl1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 4pt;
+    color: #000000;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+p.ttl12{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 4pt;
+    color: black;
+    text-transform: capitalize;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.534);
+}
+div.bl2{
+    background-color: rgba(255, 255, 255, 0.281);
+    padding-bottom: 12px;
+}
+p.sch{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    color: black;
+    font-size: 4px;
+}
+img.sch{
+    width: 50px;
+    border-collapse: collapse;
+    border-radius: 100%;
+    margin-top: 10px;
 }
 footer{
     color: black;
@@ -28,8 +88,6 @@ p.info{
     font-weight: bold;
     font-style: italic;
 }
-
-
 
 /* Style de base pour le bouton du menu */
 .dropbtn {
@@ -80,12 +138,16 @@ p.info{
     background-color: white;
     color: black;
 }
+
+
+
+
 div.address{
     font-size: 5px;
     text-align: center;
     border-style: dashed;
     border-color: white;
-    border-width: 2px;
+    border-width: 1px;
     border-radius: 30px;
     margin-top: 9px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -95,116 +157,82 @@ div.address{
 a.mail{
     text-decoration: none;
 }
+div.ann{
+    background-color: white;
+    padding: 5px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-style: dotted;
+    border-radius: 11px;
+    border-width: 1px;
+    border-color: #e1d102;
 
-h2.ttl1{
-    font-size: 7px;
+
+}
+p.txt{
+    font-size: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+}
+h4{
+    font-size: 9px;
+    text-decoration: underline;
+    text-decoration-color: #456ba5;
+    text-decoration-thickness: 0.5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+h5.actu{
+    font-size: 5px;
+    text-align: start;
+}
+div.insc{
+    border: none;
+}
+a.inc{
+    text-decoration: none;
+    color: #e1d102;
+    text-align: center;
+    font-size: 5px;
+    padding: 8px; 
+    background-color: #456ba5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div.direc{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 6px;
+    background-color: #ffffff6e;
+    padding: 6px;
+}
+h3.nos{
+    font-size: 8px;
+    color: #e1d102;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: #e1d102;
+    text-align: center;
+}
+ul.liste{
     text-align: center;
     text-transform: capitalize;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: #e1d102;
-    padding: 5px;
-    color: #000000;
-}
-h4{
-    font-size: 7px;
-    background-color: #00000060;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-}
-h6.minittl{
-    font-size: 7px;
-    text-decoration-line: underline;
-    text-decoration-color: #e1d102;
-    text-decoration-thickness: 0.2px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 4px;
-    color: #e1d102;
-}
-p.ttx{
-    font-size: 6px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-top: 0%;
-    color: white;
-}
-ul{
-    font-size: 6px;
-    padding-left: 9px;
-    color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-div.blocs{
-    border-style: dotted;
-    border-width: 0.7px;
-    border-color: white;
-    padding: 6px;
-    padding-top: 2px;
-    margin-top: 12px;
-    background-color: #00000041;
-}
-
-
-/* Styles pour la fenêtre modale */
-.fenetre {
-    display: none;
-}
-
-.contenu {
-    padding: 3px;
-    border-radius: 5px;
-}
-
-/* Styles pour le bouton de fermeture */
-.fermer {
-    font-size: 19px;
-    cursor: pointer;
-    border-style: solid;
-    border-radius: 52px;
-    border-width: 1px;
-}
-
-.ouvrir{
-    font-size: 7px;
-    background: none;
-    border: none;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    text-align: center;
+    list-style: none;
+    font-weight: bolder;
     padding: 0%;
-    color: white;
-}
-
-
-/* Styles pour la fenêtre modale */
-.fenetre2 {
-    display: none;
-}
-
-.contenu2 {
-    padding: 3px;
-    border-radius: 5px;
-}
-
-/* Styles pour le bouton de fermeture */
-#fermer2 {
-    font-size: 19px;
-    cursor: pointer;
-    border-style: solid;
-    border-radius: 52px;
-    border-width: 1px;
 }
 
 
 #scrollTopButton {
     position: fixed;
     bottom: 2px;
-    right: 2px;
+    right: 3px;
     z-index: 1; /* Assure que le bouton est au-dessus du contenu */
     background: none;
     color: #fff;
     border: none;
-    border-radius: 50px;
-    padding: 1px;
+    border-radius: 5px;
+    padding: 2px;
     cursor: pointer;
   }
   
@@ -212,6 +240,6 @@ div.blocs{
     background-color: #0057b300;
   }
   img.retour{
-    width: 10px;
-    opacity: calc(50%);
+    width: 5px;
   }
+  
