@@ -192,6 +192,7 @@ div.insc{
 }
 a.inc{
     text-decoration: none;
+    text-align: center;
     color: #e1d102;
     font-size: 5px;
     padding: 8px; 
