@@ -1,0 +1,195 @@
+body{
+    background-color: #456ba5;
+}
+img.logo{
+    width: 30px;
+    border-radius: 100px;
+}
+footer{
+    color: black;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 4pt;
+    background-color: #e1d102;
+    background-attachment: scroll;
+    padding: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-top: 25px;
+}
+h5.info{
+    font-size: 5pt;
+    text-decoration: underline;
+    text-decoration-color: #000000;
+    font-style: italic;
+}
+p.info{
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+
+/* Style de base pour le bouton du menu */
+.dropbtn {
+    background-color: white;
+    color: #456ba5;
+    padding: 5px 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+/* Style pour le contenu du menu déroulant (caché par défaut) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 30px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-size: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+/* Style pour chaque lien d'onglet */
+.dropdown-content a {
+    color: black;
+    padding: 5px 10px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Changement de couleur lorsque la souris survole un lien */
+.dropdown-content a:hover {
+    background-color: #456ba5;
+    color: white;
+}
+
+/* Afficher le contenu du menu lorsqu'il est survolé */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Style pour le menu déroulant lorsqu'il est ouvert */
+.dropdown:hover .dropbtn {
+    background-color: white;
+    color: black;
+}
+div.address{
+    font-size: 5px;
+    text-align: center;
+    border-style: dashed;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 30px;
+    margin-top: 9px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+   padding-bottom: 3px;
+}
+a.mail{
+    text-decoration: none;
+}
+
+h2.ttl1{
+    font-size: 7px;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #e1d102;
+    padding: 5px;
+    color: #000000;
+}
+h4{
+    font-size: 7px;
+    background-color: #00000060;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+h6.minittl{
+    font-size: 7px;
+    text-decoration-line: underline;
+    text-decoration-color: #e1d102;
+    text-decoration-thickness: 0.5px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 4px;
+    color: #e1d102;
+}
+p.ttx{
+    font-size: 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 0%;
+}
+ul{
+    font-size: 6px;
+    padding-left: 9px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+div.blocs{
+    border-style: dotted;
+    border-width: 0.7px;
+    border-color: white;
+    padding: 6px;
+    padding-top: 2px;
+    margin-top: 12px;
+    background-color: #00000041;
+}
+
+
+/* Styles pour la fenêtre modale */
+.fenetre {
+    display: none;
+}
+
+.contenu {
+    padding: 3px;
+    border-radius: 5px;
+}
+
+/* Styles pour le bouton de fermeture */
+.fermer {
+    font-size: 19px;
+    cursor: pointer;
+    border-style: solid;
+    border-radius: 52px;
+    border-width: 1px;
+}
+
+.ouvrir{
+    font-size: 9px;
+    background: none;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 0%;
+    text-decoration-line: underline;
+    text-decoration-color: black;
+    text-decoration-thickness: 0.1px;
+}
+
+
+/* Styles pour la fenêtre modale */
+.fenetre2 {
+    display: none;
+}
+
+.contenu2 {
+    padding: 3px;
+    border-radius: 5px;
+}
+
+/* Styles pour le bouton de fermeture */
+#fermer2 {
+    font-size: 19px;
+    cursor: pointer;
+    border-style: solid;
+    border-radius: 52px;
+    border-width: 1px;
+}
