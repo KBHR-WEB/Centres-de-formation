@@ -222,3 +222,52 @@ hr{
     color: white;
     border-width: 0.1px;
 }
+
+h4.cup{
+    font-size: 5px;
+    background: none;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    padding: 2px;
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+div.cup{
+    border-style: dotted;
+    border-color: black;
+    border-width: 1px;
+    background-color: #ffffff28;
+    margin-bottom: 13px;
+}
+td{
+    margin: 0%;
+    border: none;
+    font-size: 5px;
+}
+th{
+    margin: 0%;
+    border: none;
+    font-size: 8px;
+}
+table{
+    border-width: 0.5px;
+    border-color: #000000;
+    border-style: solid;
+    margin: 0px;
+    width: 30px;
+}
+img.tab{
+    width: 69px;
+    margin-top: 9px;
+    margin-bottom: 3px;
+    margin-right: 1px;
+    margin-left: 1.5px;
+}
+p.rent{
+    font-size: 5px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
