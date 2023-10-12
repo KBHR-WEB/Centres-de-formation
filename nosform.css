@@ -1,5 +1,7 @@
 body{
     background-color: #456ba5;
+    position: relative;
+    margin: 5px;
 }
 img.logo{
     width: 30px;
