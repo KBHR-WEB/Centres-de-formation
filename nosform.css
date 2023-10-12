@@ -112,7 +112,7 @@ h4{
     text-align: center;
 }
 h6.minittl{
-    font-size: 7px;
+    font-size: 5px;
     text-decoration-line: underline;
     text-decoration-color: #e1d102;
     text-decoration-thickness: 0.5px;
@@ -121,9 +121,10 @@ h6.minittl{
     color: #e1d102;
 }
 p.ttx{
-    font-size: 8px;
+    font-size: 4px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-top: 0%;
+    text-align: initial;
 }
 ul{
     font-size: 6px;
@@ -214,3 +215,9 @@ div.blocs{
     width: 10px;
     opacity: calc(50%);
   }
+
+hr{
+    border: solid;
+    color: white;
+    border-width: 0.1px;
+}
