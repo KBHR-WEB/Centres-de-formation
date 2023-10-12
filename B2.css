@@ -240,6 +240,7 @@ ul.liste{
     background-color: #0057b300;
   }
   img.retour{
-    width: 5px;
+    width: 10px;
+    opacity: calc(50%);
   }
   
