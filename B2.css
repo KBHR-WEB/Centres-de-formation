@@ -39,14 +39,12 @@ p.ttl1{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 4pt;
     color: #000000;
-    text-transform: capitalize;
     font-weight: bold;
 }
 p.ttl12{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 4pt;
     color: black;
-    text-transform: capitalize;
     font-weight: bold;
     background-color: rgba(255, 255, 255, 0.534);
 }
