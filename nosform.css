@@ -84,7 +84,7 @@ div.address{
     text-align: center;
     border-style: dashed;
     border-color: white;
-    border-width: 2px;
+    border-width: 1px;
     border-radius: 30px;
     margin-top: 9px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -133,12 +133,11 @@ ul{
 }
 div.blocs{
     border-style: dotted;
-    border-width: 0.7px;
+    border-width: 0.4px;
     border-color: white;
-    padding: 6px;
-    padding-top: 2px;
-    margin-top: 12px;
     background-color: #00000041;
+    margin-bottom: 9px;
+    text-align: center;
 }
 
 
@@ -162,16 +161,16 @@ div.blocs{
 }
 
 .ouvrir{
-    font-size: 9px;
+    font-size: 5px;
     background: none;
     border: none;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    text-align: center;
-    padding: 0%;
-    text-decoration-line: underline;
-    text-decoration-color: black;
-    text-decoration-thickness: 0.1px;
+    color: white;
+    padding: 2px;
+    margin-bottom: 6px;
+    margin-top: 6px;
+
 }
 
 
