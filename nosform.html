@@ -28,10 +28,35 @@
             <a href="https://kbhr-web.github.io/Blog/">Blog</a>
             <a href="#">Temoignages</a>
         </div>
-        
+            <script>
+
+                // Sélectionnez le bouton du menu et le contenu du menu
+var dropdownButton = document.querySelector('.dropbtn');
+var dropdownContent = document.querySelector('.dropdown-content');
+
+// Ajoutez un gestionnaire d'événement au bouton pour ouvrir/fermer le menu
+dropdownButton.addEventListener('click', function() {
+    // Vérifiez si le menu est actuellement affiché
+    if (dropdownContent.style.display === 'block') {
+        // Si c'est le cas, masquez-le
+        dropdownContent.style.display = 'none';
+    } else {
+        // Sinon, affichez-le
+        dropdownContent.style.display = 'block';
+    }
+});
+
+// Ajoutez un gestionnaire d'événement pour fermer le menu lorsqu'on clique en dehors
+window.addEventListener('click', function(event) {
+    if (!event.target.matches('.dropbtn')) {
+        dropdownContent.style.display = 'none';
+    }
+});
+                
+        </script>
     </div>
 
-    <script src="script.js"></script>
+
 
     <div class="page">
         <h2 class="ttl1">NOS FORMATIONS</h2>
