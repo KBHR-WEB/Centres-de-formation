@@ -240,4 +240,21 @@ ul.liste{
     width: 10px;
     opacity: calc(50%);
   }
-  
+  h4.prospec{
+  font-size: 7px;
+  font-style: italic;
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+
+button.pro{
+  background-color: white;
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 7px;
+  padding: 3px;
+  text-align: center;
+  position: relative;
+  left: 20%;
+}
